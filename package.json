@@ -2,11 +2,11 @@
   "name": "capstone-frontend-web",
   "version": "0.1.0",
   "private": true,
-  
+ 
   "dependencies": {
     "@headlessui/react": "^1.6.0",
     "@heroicons/react": "^1.0.6",
-    "@react-icons/all-files": "^4.1.0",
+    
     "@tailwindcss/forms": "^0.5.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.0.1",
@@ -19,7 +19,7 @@
     "flowbite": "^1.4.2",
     "ionicons": "^6.0.1",
     "react": "^18.0.0",
-    
+    "react-bootstrap": "^0.32.4",
     "react-date-picker": "^8.4.0",
     "react-datetime-picker": "^3.5.0",
     "react-dom": "^18.0.0",
