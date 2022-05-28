@@ -2,7 +2,7 @@
   "name": "capstone-frontend-web",
   "version": "0.1.0",
   "private": true,
-  
+  "homepage": "https://open-source-videos.github.io/Matrix-surveillant-camera-security-web",
   "dependencies": {
     "@headlessui/react": "^1.6.0",
     "@heroicons/react": "^1.0.6",
