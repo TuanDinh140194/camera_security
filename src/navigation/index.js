@@ -1,8 +1,9 @@
 import React, { 
-	Component 
+	Component, 
+	 
 } from 'react';
 import { 
-	BrowserRouter as Router, 
+	BrowserRouter as HashRouter, 
 	Route, 
 	Switch 
 } from 'react-router-dom';
@@ -20,7 +21,7 @@ class Navigation extends Component {
 	render() {
 		return (
 			<AuthContext.Provider>
-				<Router>
+				<HashRouter>
 					<Switch>
 						<Route exact path="/login" component={Login} />
 						<Route exact path='/homepage' component={Home} />
@@ -32,7 +33,7 @@ class Navigation extends Component {
 						<Route path="/403" component={Page403} />
 						<Route path='*' component={Login} />
 					</Switch>
-				</Router>
+				</HashRouter>
 			</AuthContext.Provider>
 		)
 	}
