@@ -297,7 +297,6 @@ const ProfileView = ({
                                                             </h3>
                                                         </div>
                                                         {/*body*/}
-
                                                         <div className="relative m-auto ">
                                                             <img
                                                                 alt="Avatar"
@@ -305,9 +304,6 @@ const ProfileView = ({
                                                                 style={{ width: '300px' }}
                                                             />
                                                         </div>
-
-
-
                                                         {/*footer*/}
                                                         <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
                                                         <button

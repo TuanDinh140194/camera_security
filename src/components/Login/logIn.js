@@ -17,11 +17,14 @@ import { isEmpty, isLength, isContainWhiteSpace } from '../../pages/Homepage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import useMatrixClient from '../../hooks/useMatrixClient';
 
+// email: '@test003:pdxinfosec.org',
+// password: 'G3Vsnzvr',
+
 export const Login = () => {
     const [formData, setFormData] = useState({
         homeserver: 'https://matrix.pdxinfosec.org',
-        email: '@test003:pdxinfosec.org',
-        password: 'G3Vsnzvr',
+        email: '',
+        password: '',
     });
     const [errors, setErrors] = useState({});
     const [problem, setProblem] = useState(false);
@@ -189,7 +192,7 @@ export const Login = () => {
                                 name="email"
                                 placeholder="Enter your username"
                                 onChange={handleInputChange}
-                                defaultValue={'@test003:pdxinfosec.org'}
+                                defaultValue={''}
                             />
 
                             {errors.email && (
@@ -219,7 +222,7 @@ export const Login = () => {
                                 name="password"
                                 placeholder="Enter your password"
                                 onChange={handleInputChange}
-                                defaultValue={'G3Vsnzvr'}
+                                defaultValue={''}
                             />
                             {errors.password && (
                                 <HelpBlock id="helpBlock">
